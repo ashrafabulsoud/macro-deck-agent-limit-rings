@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.macro-deck.app/plugin-manifest-v1.schema.json",
+  "manifestVersion": 1,
+  "id": "com.ashraf.agent-limit-rings",
+  "name": "Agent Limit Rings",
+  "version": "1.0.5",
+  "description": "Session, weekly, and monthly usage rings with percent and time to reset for Codex, Claude, Cursor, and Grok.",
+  "icon": "Assets/icon.svg",
+  "entrypoints": {
+    "osx-arm64": {
+      "executable": "runtimes/osx-arm64/AgentLimitRings.dll",
+      "runtime": { "kind": "FrameworkDependent", "dotnetVersion": "10.0" }
+    },
+    "win-x64": {
+      "executable": "runtimes/win-x64/AgentLimitRings.dll",
+      "runtime": { "kind": "FrameworkDependent", "dotnetVersion": "10.0" }
+    },
+    "linux-x64": {
+      "executable": "runtimes/linux-x64/AgentLimitRings.dll",
+      "runtime": { "kind": "FrameworkDependent", "dotnetVersion": "10.0" }
+    }
+  },
+  "publisher": { "name": "Ashraf" },
+  "license": "MIT",
+  "compatibility": { "macroDeck": ">=3.0.0-beta.19" },
+  "languages": ["en"]
+}
