@@ -21,7 +21,7 @@
     }
   },
   "publisher": { "name": "Ashraf" },
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "compatibility": { "macroDeck": ">=3.0.0-beta.19" },
   "languages": ["en"]
 }

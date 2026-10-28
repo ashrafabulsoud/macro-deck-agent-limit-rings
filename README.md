@@ -157,4 +157,8 @@ mkdir -p build/Assets && cp source/AgentLimitRings/Assets/icon.svg build/Assets/
 
 ## License
 
-[MIT](LICENSE)
+[GPL-3.0](LICENSE), with one added attribution term (see [NOTICE](NOTICE)):
+
+- **You may** use, copy, modify, and share this project, including commercially.
+- **You must** keep the `NOTICE` file and give visible credit — `Based on Agent Limit Rings by Ashraf` with a link to <https://github.com/ashrafabulsoud/macro-deck-agent-limit-rings> — in your README or credits.
+- **You must** release modified versions under the same license (GPL-3.0 with this notice); you may not relicense them.
